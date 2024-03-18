@@ -21,8 +21,8 @@ Install Zsh, set it as the default shell, and install OhMyZsh by executing the f
 ```bash
 sudo apt install zsh
 chsh -s $(which zsh)
-exec zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+exec zsh
 ```
 ##
 **Step 4: Set Fonts For Icons...**
